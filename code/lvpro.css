@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 118, 186);
+    margin: 0%;
+}
+
+.tt {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tt #el {
+    padding: 2px;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.tt img {
+    display: inline-flex;
+    height: 50px;
+}
+
+.product {
+    display: block;
+    background-color: white;
+    overflow: auto;
+}
+
+.product img {
+    display: inline-block;
+    background-color: rgb(133, 154, 173);
+    /* float: left; */
+    width: 40%;
+    height: auto;
+}
+.product #Brand{
+    display: block;
+    text-align: center;
+}
+.product #produc {
+    display: inline-block;
+    font-size: 4rem;
+    margin: 10px auto;
+}
+
+.product p {
+    display: block;
+    font-size: 2em;
+    margin: 10px auto;
+}
+
+.product h2 {
+    margin: 0px;
+    font-size: 2em;
+}
+
+.product ul {
+    display: inline-block;
+    margin: 10px;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 656px) {
+    .product img {
+        display: block;
+        background-color: rgb(133, 154, 173);
+        width: 100%;
+        height: 100%;
+    }
+}
